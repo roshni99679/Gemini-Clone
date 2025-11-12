@@ -1,31 +1,68 @@
-💬 Gemini Chat Assistant
-A modern AI chat interface built with React and powered by Google’s Gemini API (Generative AI).
+# 💬 Gemini Chat Assistant
+
+A modern **AI chat interface** built with **React** and powered by **Google’s Gemini API** (Generative AI).  
 This project mimics the functionality of Google Gemini (formerly Bard) — providing conversational responses, saving chat history, and enabling dynamic prompts through an intuitive, responsive UI.
 
-🌟 Features
-🤖 Real-time AI Responses – Ask anything, get intelligent answers instantly from Gemini.
-💡 Dynamic Prompt Cards – Predefined cards with quick prompts for instant AI queries.
-💬 Chat History (Recents) – Automatically saves your previous chats; reopen any to instantly view past responses.
-🧠 No Duplicate Recents – Clicking an existing chat doesn’t re-add it to the list.
-⚡ Instant History Loading – Past chats load instantly without re-fetching from the API.
-🎨 Responsive UI – Modern, clean interface styled with CSS (or Tailwind, if extended).
-🗂️ Context API Integration – State management via React Context for smooth data flow.
-📄 Extensible Codebase – Easy to modify, integrate new APIs, or enhance features.
-🖥️ Demo Preview
-alt text alt text alt text
+---
 
-🧰 Tech Stack
-Tool / Library	Purpose
-⚛️ React.js	Frontend Framework
-🧠 Context API	Global state management
-🎨 CSS Modules	Styling and layout
-🌐 Gemini API (Google Generative AI)	Backend AI response generation
-🗃️ LocalStorage (Optional)	Persistent chat history
-📦 Folder Structure
-gemini-chat/ ├── src/ │ ├── assets/ # Icons and images │ ├── components/ │ │ ├── Main/ # Chat interface │ │ ├── Sidebar/ # Recents and menu │ ├── context/ │ │ ├── Context.jsx # Context object │ │ ├── ContextProvider.jsx# Context logic & state │ ├── config/ │ │ ├── gemini.js # Gemini API configuration │ ├── App.jsx │ ├── index.jsx │ └── main.css └── package.json
+## 🌟 Features
 
-⚙️ Setup & Installation
-1️⃣ Clone the repository
+- 🤖 **Real-time AI Responses** – Ask anything, get intelligent answers instantly from Gemini.
+- 💡 **Dynamic Prompt Cards** – Predefined cards with quick prompts for instant AI queries.
+- 💬 **Chat History (Recents)** – Automatically saves your previous chats; reopen any to instantly view past responses.
+- 🧠 **No Duplicate Recents** – Clicking an existing chat doesn’t re-add it to the list.
+- ⚡ **Instant History Loading** – Past chats load instantly without re-fetching from the API.
+- 🎨 **Responsive UI** – Modern, clean interface styled with CSS (or Tailwind, if extended).
+- 🗂️ **Context API Integration** – State management via React Context for smooth data flow.
+- 📄 **Extensible Codebase** – Easy to modify, integrate new APIs, or enhance features.
+
+---
+
+## 🖥️ Demo Preview
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+
+---
+
+## 🧰 Tech Stack
+
+| Tool / Library | Purpose |
+|----------------|----------|
+| ⚛️ **React.js** | Frontend Framework |
+| 🧠 **Context API** | Global state management |
+| 🎨 **CSS Modules** | Styling and layout |
+| 🌐 **Gemini API (Google Generative AI)** | Backend AI response generation |
+| 🗃️ **LocalStorage (Optional)** | Persistent chat history |
+
+---
+
+## 📦 Folder Structure
+
+gemini-chat/
+├── src/
+│ ├── assets/ # Icons and images
+│ ├── components/
+│ │ ├── Main/ # Chat interface
+│ │ ├── Sidebar/ # Recents and menu
+│ ├── context/
+│ │ ├── Context.jsx # Context object
+│ │ ├── ContextProvider.jsx# Context logic & state
+│ ├── config/
+│ │ ├── gemini.js # Gemini API configuration
+│ ├── App.jsx
+│ ├── index.jsx
+│ └── main.css
+└── package.json
+
+
+---
+
+## ⚙️ Setup & Installation
+
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/your-username/gemini-chat-app.git
 cd gemini-chat-app
 
